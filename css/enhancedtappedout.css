@@ -1,0 +1,32 @@
+.toe-page-marker{
+	text-align: center;
+	color: #7f7f7f;
+	font-size: 14px;
+	margin-top: 6px;
+	margin-left: -21px !important;
+	margin-bottom: 6px;
+	font-weight: normal;
+	background-color: #f0f3fc;
+	border: 1px solid #c7c7c7;
+	border-radius: : 3px;
+	padding: 3px 0;
+}
+
+.toe-end-page-marker{
+	text-align: center;
+	color: #7f7f7f;
+	font-size: 14px;
+	margin-top: 6px;
+	margin-left: -21px !important;
+	margin-bottom: 6px;
+	font-weight: normal;
+	background-color: #f0f3fc;
+	border: 1px solid #c7c7c7;
+	border-radius: : 3px;
+	padding: 3px 0;
+	height: 30px;
+}
+
+#end-page-marker p, #end-page-marker img {
+	display: inline-block;
+}

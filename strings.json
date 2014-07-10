@@ -1,0 +1,3 @@
+var Strings = {
+	"TappedOutSearch" : "http://tappedout.net/mtg-cards/search/"
+};
