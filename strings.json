@@ -1,3 +1,5 @@
 var Strings = {
-	"TappedOutSearch" : "http://tappedout.net/mtg-cards/search/"
+	"AppID" : "bcmabnbkiedechnohljmjlgcegjgbhjd",
+	"TappedOutCardSearch" : "http://tappedout.net/mtg-cards/search/",
+	"TappedOutDeckSearch" : "http://tappedout.net/mtg-decks/search/"
 };

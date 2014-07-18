@@ -1,14 +1,19 @@
 {
     "manifest_version": 2,
-    "name": "TappedOut Enhanced",
+    "name": "Tapped Out Enhanced",
     "description": "This extension adds various enhancements to the site tappedout.net.",
-    "version": "0.1",
+    "version": "0.0.3",
     "author": "Jacob Durman",
     "permissions": [
         "http://tappedout.net/*"
     ],
+    "icons": { 
+        "16": "TOE_16.png",
+        "24": "TOE_24.png",
+        "128": "TOE_128.png" 
+    },
     "browser_action": {
-        "default_icon": "icon.png"
+        "default_icon": "TOE_128.png"
     },
     "content_scripts": [{
         "matches": [
@@ -22,6 +27,7 @@
             "packages/neverending.js"
         ],
         "css": [
+            "css/tappedoutOverrides.css",
             "css/enhancedtappedout.css"
         ]
     }],

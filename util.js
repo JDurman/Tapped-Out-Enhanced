@@ -17,3 +17,18 @@ function getURLParam(param) {
     }
     return (false);
 }
+
+function getElementsInHtmlString(htmlString, query) {
+    var dom = createDocument(htmlString);
+    // return a collection of elements that match the query
+    return dom.querySelectorAll(query);
+}
+
+function createDocument(html) {
+    var dom = document.implementation.createHTMLDocument("New Page");
+    dom.documentElement.innerHTML = html;
+    return dom;
+}
+
+
+
